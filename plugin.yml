@@ -1,0 +1,35 @@
+name: KillCash
+version: 2.1
+main: me.Skatedog27.KillCash.KillCash
+author: Skatedog27
+description: Get money from killing mobs and players - Version 2.1
+depend: [Vault]
+
+commands:
+    kc:
+        usage: /<command> <args>
+        aliases: [killcash, kcash, killc]
+        description: MAIN
+        
+permissions:
+    kc.command:
+        description: Permission for MAIN
+        default: op
+    kc.command.info:
+        description: Permission for info
+        default: op
+    kc.cash.mob:
+        description: Permission to recieve cash from MOBs
+        default: op
+    kc.cash.player:
+        description: Permission to recieve cash from PLAYERs
+        default: op
+    kc.command.money:
+        description: Permission to view money/balance
+        default: op
+    kc.command.reload:
+        description: Permission to reload the config file
+        default: op
+    kc.command.configcheck:
+        description: Permission to check the config file
+        default: op
